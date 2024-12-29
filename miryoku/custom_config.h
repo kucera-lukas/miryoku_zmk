@@ -82,3 +82,7 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 U_SCREENSHOT,      &kp F3,            &kp F2,            &kp F1,                     &kp F10,           U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
 &kp PAUSE_BREAK,   &kp F9,            &kp F8,            &kp F7,                     &kp F12,           U_NA,              &u_to_U_FUN,       &u_to_U_MEDIA,     &kp RALT,          U_NA,              \
 U_NP,              U_NP,              &kp K_APP,         U_SHIFT_MORPH_SENTENCE_SKQ, &kp TAB,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
+
+#define MIRYOKU_LAYER_EXTRA MIRYOKU_LAYER_BASE
+#define MIRYOKU_LAYER_TAP MIRYOKU_LAYER_BASE
+#define MIRYOKU_LAYER_BUTTON MIRYOKU_LAYER_BASE
