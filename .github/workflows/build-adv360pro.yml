@@ -24,3 +24,4 @@ jobs:
       custom_config: '["#define MIRYOKU_KLUDGE_MOUSEKEYSPR"]'
       kconfig: '["default"]'
       branches: '["zmkfirmware/zmk/main"]'
+      modules: '["urob/zmk-tri-state/main"]'
