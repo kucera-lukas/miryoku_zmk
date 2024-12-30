@@ -21,7 +21,7 @@ jobs:
       clipboard: '["default"]'
       layers: '["default"]'
       mapping: '["default"]'
-      custom_config: '["#define MIRYOKU_KLUDGE_MOUSEKEYSPR"]'
+      custom_config: '["#define MIRYOKU_KLUDGE_MOUSEKEYSPR","#define MIRYOKU_KLUDGE_DOUBLETAPBOOT"]'
       kconfig: '["default"]'
       branches: '["zmkfirmware/zmk/main"]'
       modules: '["urob/zmk-tri-state/main"]'
