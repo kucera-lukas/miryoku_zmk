@@ -28,7 +28,7 @@
       compatible = "zmk,behavior-mod-morph";
       label = "shift_morph_sentence_skq";
       #binding-cells = <0>;
-      bindings = <&kp SPC>, <&macro_sentence_skq>;
+      bindings = <&kp SPACE>, <&macro_sentence_skq>;
       mods = <(MOD_LSFT|MOD_RSFT)>;
     };
 
