@@ -14,7 +14,6 @@
     behaviors {
       hml: hml {
         compatible = "zmk,behavior-hold-tap";
-        label = "hml";
         #binding-cells = <2>;
         flavor = "balanced";
         tapping-term-ms = <280>;
@@ -27,7 +26,6 @@
 
       hmr: hmr {
         compatible = "zmk,behavior-hold-tap";
-        label = "hmr";
         #binding-cells = <2>;
         flavor = "balanced";
         tapping-term-ms = <280>;

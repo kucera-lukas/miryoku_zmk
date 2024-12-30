@@ -12,7 +12,6 @@
   behaviors {
     alt_tab_swapper: alt_tab_swapper {
       compatible = "zmk,behavior-tri-state";
-      label = "alt_tab_swapper";
       #binding-cells = <0>;
       bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
       ignored-key-positions = <26>;
@@ -20,7 +19,6 @@
 
     gui_tab_swapper: gui_tab_swapper {
       compatible = "zmk,behavior-tri-state";
-      label = "gui_tab_swapper";
       #binding-cells = <0>;
       bindings = <&kt LGUI>, <&kp TAB>, <&kt LGUI>;
       ignored-key-positions = <26>;
