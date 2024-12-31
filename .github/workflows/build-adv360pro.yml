@@ -17,7 +17,7 @@ jobs:
       board: '["adv360pro_left","adv360pro_right"]'
       shield: '["default"]'
       alphas: '["default"]'
-      nav: '["invertedT"]'
+      nav: '["default"]'
       clipboard: '["default"]'
       layers: '["default"]'
       mapping: '["default"]'
