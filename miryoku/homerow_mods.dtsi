@@ -22,7 +22,7 @@
         require-prior-idle-ms = <150>;
         bindings = <&kp>, <&kp>;
         hold-trigger-key-positions = <KEYS_R THUMBS>;
-        hold-trigger-on-release;            // requires PR #1423
+        hold-trigger-on-release;
       };
 
       hmr: hmr {
@@ -35,7 +35,7 @@
         require-prior-idle-ms = <150>;
         bindings = <&kp>, <&kp>;
         hold-trigger-key-positions = <KEYS_L THUMBS>;
-        hold-trigger-on-release;            // requires PR #1423
+        hold-trigger-on-release;
     };
   };
 };
