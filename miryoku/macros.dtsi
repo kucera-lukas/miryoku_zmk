@@ -280,7 +280,7 @@
           // Go to the end of the line and tap delete.
         = <&kp END &kp DEL>
           // In case we joined two words together, insert one space.
-        , <&kp SPC>
+        , <&kp SPACE>
           // Go to the beginning of the next word.
         , <&kp LC(RIGHT) &kp LC(LEFT)>
           // Select back to the end of the previous word. This should select
@@ -288,7 +288,7 @@
           // or trailing whitespace, including the space inserted earlier.
         , <&kp LS(LC(LEFT)) &kp LS(LC(RIGHT))>
           // Replace the selection with a single space.
-        , <&kp SPC>
+        , <&kp SPACE>
         ;
     };
 
