@@ -17,7 +17,7 @@
     compatible = "zmk,combos";
 
     combo_caps_word_caps {
-      key-positions = <71 76>;
+      key-positions = <65 70>;
       bindings = <U_CAPS_WORD_CAPS>;
       layers = <0>;
     };
@@ -35,7 +35,7 @@
     };
 
     combo_open_clear_clipboard_history {
-      key-positions = <61 62>;
+      key-positions = <55 56>;
       bindings = <U_OPEN_CLEAR_CLIPBOARD_HISTORY>;
       layers = <4 5>;
     };
