@@ -23,4 +23,4 @@ jobs:
       mapping: '["default"]'
       custom_config: '["#define MIRYOKU_KLUDGE_MOUSEKEYSPR"]'
       kconfig: '["default"]'
-      branches: '["urob/zmk/main"]'
+      branches: '["zmkfirmware/zmk/main"]'
