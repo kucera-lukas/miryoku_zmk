@@ -56,7 +56,7 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 #define MIRYOKU_LAYER_MOUSE \
 U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              U_WH_U,            U_WH_L,            U_MS_U,            U_WH_R,                     U_WH_U,            \
 &kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              U_WH_D,            U_MS_L,            U_MS_D,            U_MS_R,                     U_WH_D,            \
-U_NA,              &kp RALT,          &u_to_U_NUM,       &u_to_U_MOUSE,     U_NA,              U_UND,             U_PST,             U_COPY_SELECT_ALL, U_CUT_EDIT_CLIPBOARD,       U_RDO,             \
+U_NA,              &kp RALT,          &u_to_U_NUM,       &u_to_U_MOUSE,     U_NA,              U_BTN4,            U_PST,             U_COPY_SELECT_ALL, U_CUT_EDIT_CLIPBOARD,       U_BTN5,            \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              U_BTN3,            U_BTN1,            U_BTN2,            U_NP,                       U_NP
 
 #define MIRYOKU_LAYER_MEDIA \

@@ -1495,10 +1495,11 @@ svg.keymap {
 <use href="#mdi:cursor-default-click-outline" xlink:href="#mdi:cursor-default-click-outline" x="-9" y="-13" height="18" width="18.0" class="key symbol_with_superscript tap glyph mdi:cursor-default-click-outline"/>
 <text x="0" y="-24" class="key symbol_with_superscript shifted">3</text>
 </g>
-<g transform="translate(686, 196)" class="key keypos-54">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<use href="#mdi:undo" xlink:href="#mdi:undo" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:undo"/>
+<g transform="translate(686, 196)" class="key symbol_with_superscript keypos-54">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key symbol_with_superscript side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key symbol_with_superscript"/>
+<use href="#mdi:cursor-default-click-outline" xlink:href="#mdi:cursor-default-click-outline" x="-9" y="-13" height="18" width="18.0" class="key symbol_with_superscript tap glyph mdi:cursor-default-click-outline"/>
+<text x="0" y="-24" class="key symbol_with_superscript shifted">4</text>
 </g>
 <g transform="translate(742, 196)" class="key keypos-55">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1517,10 +1518,11 @@ svg.keymap {
 <use href="#mdi:content-cut" xlink:href="#mdi:content-cut" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:content-cut"/>
 <use href="#mdi:clipboard-edit-outline" xlink:href="#mdi:clipboard-edit-outline" x="-5" y="14" height="10" width="10.0" class="key hold glyph mdi:clipboard-edit-outline"/>
 </g>
-<g transform="translate(910, 210)" class="key keypos-58">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<use href="#mdi:redo" xlink:href="#mdi:redo" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:redo"/>
+<g transform="translate(910, 210)" class="key symbol_with_superscript keypos-58">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key symbol_with_superscript side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key symbol_with_superscript"/>
+<use href="#mdi:cursor-default-click-outline" xlink:href="#mdi:cursor-default-click-outline" x="-9" y="-13" height="18" width="18.0" class="key symbol_with_superscript tap glyph mdi:cursor-default-click-outline"/>
+<text x="0" y="-24" class="key symbol_with_superscript shifted">5</text>
 </g>
 <g transform="translate(973, 210)" class="key ghost keypos-59">
 <rect rx="6" ry="6" x="-33" y="-26" width="66" height="52" class="key ghost side"/>
