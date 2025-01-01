@@ -25,19 +25,19 @@
     combo_refresh_close_tab {
       key-positions = <25 23>;
       bindings = <U_REFRESH_CLOSE_TAB>;
-      layers = <4>;
+      layers = <1>;
     };
 
     combo_select_word_line {
       key-positions = <41 43>;
       bindings = <U_SELECT_WORD_LINE>;
-      layers = <4>;
+      layers = <1>;
     };
 
     combo_open_clear_clipboard_history {
       key-positions = <55 56>;
       bindings = <U_OPEN_CLEAR_CLIPBOARD_HISTORY>;
-      layers = <4 5>;
+      layers = <1 2>;
     };
   };
 };

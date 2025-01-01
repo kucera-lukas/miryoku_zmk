@@ -19,7 +19,7 @@ jobs:
       keymap_patterns: "config/adv360pro.keymap"
       config_path: "keymap-drawer/config.yaml"
       output_folder: "keymap-drawer"
-      draw_args: "adv360pro:'--select-layers Base Nav Sym Mouse Num Media Fun'"
+      draw_args: "adv360pro:'--select-layers Base Nav Mouse Media Sym Num Fun'"
       amend_commit: true
       destination: "both"
       fail_on_error: true
