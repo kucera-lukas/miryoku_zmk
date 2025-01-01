@@ -12,6 +12,12 @@
 #include "hold_tap.dtsi"
 #include "macros.dtsi"
 
+#define COMBO_TERM_FAST 18
+#define COMBO_IDLE_FAST 150
+
+#define COMBO_TERM_SLOW 30
+#define COMBO_IDLE_SLOW 50
+
 / {
   combos {
     compatible = "zmk,combos";
@@ -20,24 +26,32 @@
       key-positions = <65 70>;
       bindings = <U_CAPS_WORD_CAPS>;
       layers = <0>;
+      timeout-ms = <COMBO_TERM_SLOW>;
+      require-prior-idle-ms = <COMBO_IDLE_SLOW>;
     };
 
     combo_refresh_close_tab {
       key-positions = <25 23>;
       bindings = <U_REFRESH_CLOSE_TAB>;
       layers = <1>;
+      timeout-ms = <COMBO_TERM_FAST>;
+      require-prior-idle-ms = <COMBO_IDLE_FAST>;
     };
 
     combo_select_word_line {
       key-positions = <41 43>;
       bindings = <U_SELECT_WORD_LINE>;
       layers = <1>;
+      timeout-ms = <COMBO_TERM_FAST>;
+      require-prior-idle-ms = <COMBO_IDLE_FAST>;
     };
 
     combo_open_clear_clipboard_history {
       key-positions = <55 56>;
       bindings = <U_OPEN_CLEAR_CLIPBOARD_HISTORY>;
       layers = <1 2>;
+      timeout-ms = <COMBO_TERM_FAST>;
+      require-prior-idle-ms = <COMBO_IDLE_FAST>;
     };
   };
 };
