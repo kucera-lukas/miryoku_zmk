@@ -77,237 +77,6 @@ layers:
   - {type: ghost}
   - {type: ghost}
   - {type: ghost}
-  Extra:
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - W
-  - L
-  - Y
-  - P
-  - B
-  - {type: ghost}
-  - {type: ghost}
-  - Z
-  - F
-  - O
-  - U
-  - {t: '"', h: '""', s: ''''}
-  - {type: ghost}
-  - {type: ghost}
-  - {t: C, h: '$$mdi:microsoft-windows$$'}
-  - {t: R, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
-  - G
-  - {type: ghost}
-  - {t: '$$mdi:keyboard-esc$$', h: Media}
-  - {t: '$$mdi:keyboard-esc$$', h: Media}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: Fun}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: Fun}
-  - {type: ghost}
-  - M
-  - {t: N, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: E, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: I, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: A, h: '$$mdi:microsoft-windows$$'}
-  - {type: ghost}
-  - {type: ghost}
-  - Q
-  - J
-  - V
-  - D
-  - K
-  - {t: '$$mdi:keyboard-esc$$', h: Media}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: Fun}
-  - X
-  - H
-  - {t: _, h: __, s: '-'}
-  - {t: ., h: '...', s: '!'}
-  - {t: ',', h: ',,', s: '?'}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {t: '$$mdi:keyboard-esc$$', h: Media}
-  - {t: '$$mdi:keyboard-space$$', h: Nav, s: '$$mdi:format-letter-ends-with$$'}
-  - {t: '$$mdi:keyboard-tab$$', h: Mouse}
-  - {t: '$$mdi:keyboard-esc$$', h: Media}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: Fun}
-  - {t: '$$mdi:keyboard-return$$', h: Num}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: Sym}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: Fun}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  Tap:
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - W
-  - L
-  - Y
-  - P
-  - B
-  - {type: ghost}
-  - {type: ghost}
-  - Z
-  - F
-  - O
-  - U
-  - {t: '"', h: '""', s: ''''}
-  - {type: ghost}
-  - {type: ghost}
-  - {t: C, h: '$$mdi:microsoft-windows$$'}
-  - {t: R, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
-  - G
-  - {type: ghost}
-  - {t: '$$mdi:keyboard-esc$$', h: Media}
-  - {t: '$$mdi:keyboard-esc$$', h: Media}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: Fun}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: Fun}
-  - {type: ghost}
-  - M
-  - {t: N, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: E, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: I, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: A, h: '$$mdi:microsoft-windows$$'}
-  - {type: ghost}
-  - {type: ghost}
-  - Q
-  - J
-  - V
-  - D
-  - K
-  - {t: '$$mdi:keyboard-esc$$', h: Media}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: Fun}
-  - X
-  - H
-  - {t: _, h: __, s: '-'}
-  - {t: ., h: '...', s: '!'}
-  - {t: ',', h: ',,', s: '?'}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {t: '$$mdi:keyboard-esc$$', h: Media}
-  - {t: '$$mdi:keyboard-space$$', h: Nav, s: '$$mdi:format-letter-ends-with$$'}
-  - {t: '$$mdi:keyboard-tab$$', h: Mouse}
-  - {t: '$$mdi:keyboard-esc$$', h: Media}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: Fun}
-  - {t: '$$mdi:keyboard-return$$', h: Num}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: Sym}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: Fun}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  Button:
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - W
-  - L
-  - Y
-  - P
-  - B
-  - {type: ghost}
-  - {type: ghost}
-  - Z
-  - F
-  - O
-  - U
-  - {t: '"', h: '""', s: ''''}
-  - {type: ghost}
-  - {type: ghost}
-  - {t: C, h: '$$mdi:microsoft-windows$$'}
-  - {t: R, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
-  - G
-  - {type: ghost}
-  - {t: '$$mdi:keyboard-esc$$', h: Media}
-  - {t: '$$mdi:keyboard-esc$$', h: Media}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: Fun}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: Fun}
-  - {type: ghost}
-  - M
-  - {t: N, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: E, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: I, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: A, h: '$$mdi:microsoft-windows$$'}
-  - {type: ghost}
-  - {type: ghost}
-  - Q
-  - J
-  - V
-  - D
-  - K
-  - {t: '$$mdi:keyboard-esc$$', h: Media}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: Fun}
-  - X
-  - H
-  - {t: _, h: __, s: '-'}
-  - {t: ., h: '...', s: '!'}
-  - {t: ',', h: ',,', s: '?'}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {t: '$$mdi:keyboard-esc$$', h: Media}
-  - {t: '$$mdi:keyboard-space$$', h: Nav, s: '$$mdi:format-letter-ends-with$$'}
-  - {t: '$$mdi:keyboard-tab$$', h: Mouse}
-  - {t: '$$mdi:keyboard-esc$$', h: Media}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: Fun}
-  - {t: '$$mdi:keyboard-return$$', h: Num}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: Sym}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: Fun}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
   Nav:
   - {type: ghost}
   - {type: ghost}
@@ -539,83 +308,6 @@ layers:
   - {type: ghost}
   - {type: ghost}
   - {type: ghost}
-  Num:
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {t: ^, h: ^^}
-  - '6'
-  - '5'
-  - '4'
-  - {t: +, h: ++}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - $$mdi:progress-download$$
-  - {type: ghost}
-  - {type: ghost}
-  - {t: $, h: $$}
-  - '3'
-  - '2'
-  - '1'
-  - {t: '-', h: --}
-  - {type: ghost}
-  - {t: ;, h: ;;}
-  - {t: ;, h: ;;}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:microsoft-windows$$
-  - {type: ghost}
-  - {type: ghost}
-  - {t: '%', h: '%%'}
-  - '9'
-  - '8'
-  - '7'
-  - {t: '*', h: '**'}
-  - {t: ;, h: ;;}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - $$mdi:apple-keyboard-option$$
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {t: ;, h: ;;}
-  - '0'
-  - {t: ':', h: '::'}
-  - {t: ;, h: ;;}
-  - {type: ghost}
-  - {type: held}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
-  - {type: ghost}
   Sym:
   - {type: ghost}
   - {type: ghost}
@@ -688,6 +380,83 @@ layers:
   - {type: ghost}
   - {type: ghost}
   - {type: held}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  Num:
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {t: ^, h: ^^}
+  - '6'
+  - '5'
+  - '4'
+  - {t: +, h: ++}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - $$mdi:progress-download$$
+  - {type: ghost}
+  - {type: ghost}
+  - {t: $, h: $$}
+  - '3'
+  - '2'
+  - '1'
+  - {t: '-', h: --}
+  - {type: ghost}
+  - {t: ;, h: ;;}
+  - {t: ;, h: ;;}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:microsoft-windows$$
+  - {type: ghost}
+  - {type: ghost}
+  - {t: '%', h: '%%'}
+  - '9'
+  - '8'
+  - '7'
+  - {t: '*', h: '**'}
+  - {t: ;, h: ;;}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - $$mdi:apple-keyboard-option$$
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {t: ;, h: ;;}
+  - '0'
+  - {t: ':', h: '::'}
+  - {t: ;, h: ;;}
+  - {type: ghost}
+  - {type: held}
+  - {type: ghost}
   - {type: ghost}
   - {type: ghost}
   - {type: ghost}
@@ -766,6 +535,237 @@ layers:
   - {type: ghost}
   - {type: ghost}
   - {type: held alternate}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  Extra:
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - W
+  - L
+  - Y
+  - P
+  - B
+  - {type: ghost}
+  - {type: ghost}
+  - Z
+  - F
+  - O
+  - U
+  - {t: '"', h: '""', s: ''''}
+  - {type: ghost}
+  - {type: ghost}
+  - {t: C, h: '$$mdi:microsoft-windows$$'}
+  - {t: R, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
+  - G
+  - {type: ghost}
+  - {t: '$$mdi:keyboard-esc$$', h: Media}
+  - {t: '$$mdi:keyboard-esc$$', h: Media}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: Fun}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: Fun}
+  - {type: ghost}
+  - M
+  - {t: N, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: E, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: I, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: A, h: '$$mdi:microsoft-windows$$'}
+  - {type: ghost}
+  - {type: ghost}
+  - Q
+  - J
+  - V
+  - D
+  - K
+  - {t: '$$mdi:keyboard-esc$$', h: Media}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: Fun}
+  - X
+  - H
+  - {t: _, h: __, s: '-'}
+  - {t: ., h: '...', s: '!'}
+  - {t: ',', h: ',,', s: '?'}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {t: '$$mdi:keyboard-esc$$', h: Media}
+  - {t: '$$mdi:keyboard-space$$', h: Nav, s: '$$mdi:format-letter-ends-with$$'}
+  - {t: '$$mdi:keyboard-tab$$', h: Mouse}
+  - {t: '$$mdi:keyboard-esc$$', h: Media}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: Fun}
+  - {t: '$$mdi:keyboard-return$$', h: Num}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: Sym}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: Fun}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  Tap:
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - W
+  - L
+  - Y
+  - P
+  - B
+  - {type: ghost}
+  - {type: ghost}
+  - Z
+  - F
+  - O
+  - U
+  - {t: '"', h: '""', s: ''''}
+  - {type: ghost}
+  - {type: ghost}
+  - {t: C, h: '$$mdi:microsoft-windows$$'}
+  - {t: R, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
+  - G
+  - {type: ghost}
+  - {t: '$$mdi:keyboard-esc$$', h: Media}
+  - {t: '$$mdi:keyboard-esc$$', h: Media}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: Fun}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: Fun}
+  - {type: ghost}
+  - M
+  - {t: N, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: E, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: I, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: A, h: '$$mdi:microsoft-windows$$'}
+  - {type: ghost}
+  - {type: ghost}
+  - Q
+  - J
+  - V
+  - D
+  - K
+  - {t: '$$mdi:keyboard-esc$$', h: Media}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: Fun}
+  - X
+  - H
+  - {t: _, h: __, s: '-'}
+  - {t: ., h: '...', s: '!'}
+  - {t: ',', h: ',,', s: '?'}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {t: '$$mdi:keyboard-esc$$', h: Media}
+  - {t: '$$mdi:keyboard-space$$', h: Nav, s: '$$mdi:format-letter-ends-with$$'}
+  - {t: '$$mdi:keyboard-tab$$', h: Mouse}
+  - {t: '$$mdi:keyboard-esc$$', h: Media}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: Fun}
+  - {t: '$$mdi:keyboard-return$$', h: Num}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: Sym}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: Fun}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  Button:
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - W
+  - L
+  - Y
+  - P
+  - B
+  - {type: ghost}
+  - {type: ghost}
+  - Z
+  - F
+  - O
+  - U
+  - {t: '"', h: '""', s: ''''}
+  - {type: ghost}
+  - {type: ghost}
+  - {t: C, h: '$$mdi:microsoft-windows$$'}
+  - {t: R, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
+  - G
+  - {type: ghost}
+  - {t: '$$mdi:keyboard-esc$$', h: Media}
+  - {t: '$$mdi:keyboard-esc$$', h: Media}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: Fun}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: Fun}
+  - {type: ghost}
+  - M
+  - {t: N, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: E, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: I, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: A, h: '$$mdi:microsoft-windows$$'}
+  - {type: ghost}
+  - {type: ghost}
+  - Q
+  - J
+  - V
+  - D
+  - K
+  - {t: '$$mdi:keyboard-esc$$', h: Media}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: Fun}
+  - X
+  - H
+  - {t: _, h: __, s: '-'}
+  - {t: ., h: '...', s: '!'}
+  - {t: ',', h: ',,', s: '?'}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {type: ghost}
+  - {t: '$$mdi:keyboard-esc$$', h: Media}
+  - {t: '$$mdi:keyboard-space$$', h: Nav, s: '$$mdi:format-letter-ends-with$$'}
+  - {t: '$$mdi:keyboard-tab$$', h: Mouse}
+  - {t: '$$mdi:keyboard-esc$$', h: Media}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: Fun}
+  - {t: '$$mdi:keyboard-return$$', h: Num}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: Sym}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: Fun}
   - {type: ghost}
   - {type: ghost}
   - {type: ghost}
