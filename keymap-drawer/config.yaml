@@ -1,0 +1,489 @@
+draw_config:
+  dark_mode: auto
+  append_colon_to_layer_header: false
+  draw_key_sides: true
+
+  svg_extra_style: |
+    svg.keymap {
+      font-family: Ubuntu Mono, Inconsolata, Consolas, Liberation Mono, Menlo, monospace;
+      font-size: 12px;
+      font-weight: bold;
+      text-rendering: optimizeLegibility;
+    }
+
+    .toggle.shifted {
+      translate: -13px 13.5px;
+    }
+
+    .toggle.hold {
+      translate: 13px -23px;
+    }
+
+    /* Inspired by https://github.com/SethMilliken/zmk-config */
+    .symbol_by_symbol.tap {
+      translate: -5px 2px;
+      font-size: 20px;
+    }
+    .symbol_by_symbol.shifted {
+      translate: 10px 13px;
+      font-size: 10px;
+      opacity: 1.0;
+    }
+
+    /* Inspired by https://github.com/englmaxi/zmk-config */
+    .symbol_with_superscript.tap {
+      translate: -1px 1px;
+    }
+    .symbol_with_superscript.shifted {
+      translate: 7px 5px;
+      font-size: 8px;
+      opacity: 1.0;
+    }
+  glyph_tap_size: 18
+  glyph_hold_size: 10
+  glyph_shifted_size: 12
+
+parse_config:
+  sticky_label: $$mdi:circle-small$$
+  toggle_label: $$mdi:toggle-switch$$
+  trans_legend:
+    tap: $$mdi:chevron-down$$
+    type: trans
+
+  raw_binding_map: {
+    '&none': {type: 'ghost'},
+
+    '&alt_tab_swapper': $$mdi:swap-horizontal$$,
+    '&gui_tab_swapper': $$mdi:swap-horizontal-bold$$,
+    '&u_caps_word': $$mdi:alpha-w-box$$,
+    '&u_bootloader': $$mdi:progress-download$$,
+
+    '&masked_home': '$$mdi:format-horizontal-align-left$$',
+    '&masked_end': '$$mdi:format-horizontal-align-right$$',
+
+    # Mouse move
+    '&mmv MOVE_UP': {
+      tap: '$$mdi:mouse-outline$$',
+      shifted: $$mdi:arrow-up$$,
+      type: symbol_with_superscript
+    },
+    '&mmv MOVE_DOWN': {
+      tap: '$$mdi:mouse-outline$$',
+      shifted: $$mdi:arrow-down$$,
+      type: symbol_with_superscript
+    },
+    '&mmv MOVE_LEFT': {
+      tap: '$$mdi:mouse-outline$$',
+      shifted: $$mdi:arrow-left$$,
+      type: symbol_with_superscript
+    },
+    '&mmv MOVE_RIGHT': {
+      tap: '$$mdi:mouse-outline$$',
+      shifted: $$mdi:arrow-right$$,
+      type: symbol_with_superscript
+    },
+
+    # Mouse scroll
+    '&msc SCRL_UP': {
+      tap: '$$mdi:mouse-scroll-wheel$$',
+      shifted: $$mdi:arrow-up-thin$$,
+      type: symbol_with_superscript
+    },
+    '&msc SCRL_DOWN': {
+      tap: '$$mdi:mouse-scroll-wheel$$',
+      shifted: $$mdi:arrow-down-thin$$,
+      type: symbol_with_superscript
+    },
+    '&msc SCRL_LEFT': {
+      tap: '$$mdi:mouse-scroll-wheel$$',
+      shifted: $$mdi:arrow-left-thin$$,
+      type: symbol_with_superscript
+    },
+    '&msc SCRL_RIGHT': {
+      tap: '$$mdi:mouse-scroll-wheel$$',
+      shifted: $$mdi:arrow-right-thin$$,
+      type: symbol_with_superscript
+    },
+
+    # Mouse click
+    '&mkp LCLK': '$$mdi:cursor-default-click-outline$$',
+    '&mkp RCLK': '$$mdi:cursor-default-click$$',
+    '&mkp MCLK': {
+      tap: '$$mdi:cursor-default-click-outline$$',
+      shifted: 3,
+      type: symbol_with_superscript
+    },
+    '&mkp MB4': {
+      tap: '$$mdi:cursor-default-click-outline$$',
+      shifted: 4,
+      type: symbol_with_superscript
+    },
+    '&mkp MB5': {
+      tap: '$$mdi:cursor-default-click-outline$$',
+      shifted: 5,
+      type: symbol_with_superscript
+    },
+
+    # Macros
+    '&macro_sentence_skq': $$mdi:format-letter-ends-with$$,
+    '&macro_dquotes': '""',
+    '&macro_triple_dquotes': '"""""""',
+    '&macro_squote': "''",
+    '&macro_double_under': '__',
+    '&macro_double_minus': '--',
+    '&macro_triple_dot': '...',
+    '&macro_double_bang': '!!',
+    '&macro_double_comma': ',,',
+    '&macro_double_question': '??',
+    '&macro_backtick': '``',
+    '&macro_triple_backtick': '``````',
+    '&macro_parens': '()',
+    '&macro_braces': '{}',
+    '&macro_double_left_brace': '{{',
+    '&macro_double_right_brace': '}}',
+    '&macro_brackets': '[]',
+    '&macro_double_left_bracket': '[[',
+    '&macro_double_right_bracket': ']]',
+    '&macro_double_tilde': '~~',
+    '&macro_double_backslash': '\\',
+    '&macro_double_ampersand': '&&',
+    '&macro_double_plus': '++',
+    '&macro_double_hash': '##',
+    '&macro_double_equal': '==',
+    '&macro_double_slash': '//',
+    '&macro_double_at_sign': '@@',
+    '&macro_double_less_than': '<<',
+    '&macro_double_greater_than': '>>',
+    '&macro_double_pipe': '||',
+    '&macro_double_asterisk': '**',
+    '&macro_double_caret': '^^',
+    '&macro_double_dollar': '$$',
+    '&macro_double_percent': '%%',
+    '&macro_double_colon': '::',
+    '&macro_double_semicolon': ';;',
+    '&macro_select_word': {
+      tap: $$mdi:select-compare$$,
+      shifted: $$mdi:arrow-right-thin$$,
+      type: symbol_with_superscript,
+    },
+    '&macro_select_line': {
+      tap: $$mdi:select-compare$$,
+      shifted: $$mdi:arrow-right-bold$$,
+      type: symbol_with_superscript,
+    },
+    '&macro_join_lines': '$$mdi:arrow-collapse-vertical$$',
+    '&email': '$$mdi:card-account-mail$$',
+
+    # Output
+    '&out OUT_USB': $$mdi:usb$$,
+    '&out OUT_BLE': $$mdi:bluetooth-connect$$,
+
+    # Bluetooth
+    "&bt BT_NXT": {
+      tap: "$$mdi:bluetooth-connect$$",
+      shifted: $$mdi:skip-next$$,
+      type: symbol_with_superscript
+    },
+
+    # Unused "layer lock" behaviors
+    '&u_to_U_NAV': {type: 'ghost'},
+    '&u_to_U_NUM': {type: 'ghost'},
+    '&u_to_U_SYM': {type: 'ghost'},
+    '&u_to_U_TAP': {type: 'ghost'},
+    '&u_to_U_EXTRA': {type: 'ghost'},
+    '&u_to_U_FUN': {type: 'ghost'},
+    '&u_to_U_MOUSE': {type: 'ghost'},
+    '&u_to_U_MEDIA': {type: 'ghost'},
+    '&u_to_U_BASE': {type: 'ghost'}
+  }
+  layer_legend_map: {}
+  mark_alternate_layer_activators: true
+  modifier_fn_map: {
+    left_ctrl: '$$mdi:apple-keyboard-control$$',
+    right_ctrl: '$$mdi:apple-keyboard-control$$',
+    left_shift: '$$mdi:apple-keyboard-shift$$',
+    right_shift: '$$mdi:apple-keyboard-shift$$',
+    left_alt: '$$mdi:apple-keyboard-option$$',
+    right_alt: '$$mdi:apple-keyboard-option$$',
+    left_gui: '$$mdi:microsoft-windows$$',
+    right_gui: '$$mdi:microsoft-windows$$',
+  }
+  zmk_keycode_map:
+    SPACE: $$mdi:keyboard-space$$
+    ESC: $$mdi:keyboard-esc$$
+
+    RETURN: $$mdi:keyboard-return$$
+    RET: $$mdi:keyboard-return$$
+
+    BACKSPACE: $$mdi:backspace-outline$$
+    BSPC: $$mdi:backspace-outline$$
+
+    DELETE: $$mdi:backspace-reverse-outline$$
+    DEL: $$mdi:backspace-reverse-outline$$
+
+    TAB: $$mdi:keyboard-tab$$
+
+    # Modifiers
+    LSHFT: $$mdi:apple-keyboard-shift$$
+    LSHIFT: $$mdi:apple-keyboard-shift$$
+    LEFT_SHIFT: $$mdi:apple-keyboard-shift$$
+
+    RSHFT: $$mdi:apple-keyboard-shift$$
+    RSHIFT: $$mdi:apple-keyboard-shift$$
+    RIGHT_SHIFT: $$mdi:apple-keyboard-shift$$
+
+    LCTRL: $$mdi:apple-keyboard-control$$
+    LEFT_CONTROL: $$mdi:apple-keyboard-control$$
+
+    RCTRL: $$mdi:apple-keyboard-control$$
+    RIGHT_CONTROL: $$mdi:apple-keyboard-control$$
+
+    LGUI: $$mdi:microsoft-windows$$
+    RGUI: $$mdi:microsoft-windows$$
+
+    LALT: $$mdi:apple-keyboard-option$$
+    RALT: $$mdi:apple-keyboard-option$$
+
+    # Function keys
+    F1: $$mdi:keyboard-f1$$
+    F2: $$mdi:keyboard-f2$$
+    F3: $$mdi:keyboard-f3$$
+    F4: $$mdi:keyboard-f4$$
+    F5: $$mdi:keyboard-f5$$
+    F6: $$mdi:keyboard-f6$$
+    F7: $$mdi:keyboard-f7$$
+    F8: $$mdi:keyboard-f8$$
+    F9: $$mdi:keyboard-f9$$
+    F10: $$mdi:keyboard-f10$$
+    F11: $$mdi:keyboard-f11$$
+    F12: $$mdi:keyboard-f12$$
+
+    # Navigation
+    INS: Insert
+    HOME: Home
+    END: End
+
+    # Lock
+    LG(L): $$mdi:lock-outline$$
+
+    # Zoom
+    LC(PLUS): $$mdi:magnify-plus-outline$$
+    LC(MINUS): $$mdi:magnify-minus-outline$$
+    LC(N0): $$mdi:magnify-remove-outline$$
+
+    # Clipboard
+    LC(INS): $$mdi:content-copy$$
+    LC(C): $$mdi:content-copy$$
+    LS(INS): $$mdi:content-paste$$
+    LC(V): $$mdi:content-paste$$
+    LS(DEL): $$mdi:content-cut$$
+    LC(X): $$mdi:content-cut$$
+    LC(Z): $$mdi:undo$$
+    LC(Y): $$mdi:redo$$
+    LC(LS(Z)): $$mdi:redo$$
+    LG(V): $$mdi:clipboard-text-outline$$  # clipboard history
+    LC(LA(LS(H))): $$mdi:clipboard-text-off-outline$$  # clear clipboard
+    LC(LA(LS(E))): $$mdi:clipboard-edit-outline$$  # edit clipboard
+
+    # Misc
+    LC(A): $$mdi:select-all$$
+    LC(F): $$mdi:text-search$$
+    LC(G): $$mdi:find-replace$$
+    LC(H): $$mdi:find-replace$$
+    LC(P): $$mdi:printer$$
+    LC(S): $$mdi:content-save$$
+    LC(T): $$mdi:tab-plus$$
+    LC(W): $$mdi:window-close$$  # close (e.g. browser tab)
+    LC(Q): $$mdi:close-box-outline$$  # quit (e.g. browser)
+    LC(R): $$mdi:refresh$$
+    LA(F4): $$mdi:close-box-outline$$
+
+    LC(BSPC): $$mdi:backspace$$  # backward delete word
+    LC(DEL): $$mdi:backspace-reverse$$  # forward delete word
+    LS(TAB): $$mdi:keyboard-tab-reverse$$  # reverse tab
+
+    LC(TAB): {
+      tap: $$mdi:tab$$,
+      shifted: $$mdi:arrow-right-box$$,
+      type: symbol_by_symbol
+    }
+    LC(LS(TAB)): {
+      tap: $$mdi:tab$$,
+      shifted: $$mdi:arrow-left-box$$,
+      type: symbol_by_symbol
+    }
+    LS(LC(TAB)): {
+      tap: $$mdi:tab$$,
+      shifted: $$mdi:arrow-left-box$$,
+      type: symbol_by_symbol
+    }
+
+    LC(LG(LEFT)): $$mdi:arrow-left-bold-box-outline$$
+    LC(LG(RIGHT)): $$mdi:arrow-right-bold-box-outline$$
+
+    LC(LS(LALT)): $$mdi:star-three-points-outline$$
+    LC(LS(LA(LGUI))): $$mdi:star-four-points-outline$$
+    LC(HOME): $$mdi:format-vertical-align-top$$
+    LC(END): $$mdi:format-vertical-align-bottom$$
+
+    LG(DOT): $$mdi:emoticon$$  # emoji bar
+
+    LC(LA(LS(T))): {  # toggle night light
+      tap: $$mdi:toggle-switch$$,
+      shifted: $$mdi:lightbulb-off-outline$$,
+      hold: $$mdi:lightbulb-outline$$,
+      type: toggle
+    }
+
+    LC(LA(LS(N))): {  # toggle notifications
+      tap: $$mdi:toggle-switch$$,
+      hold: $$mdi:bell-outline$$,
+      shifted: $$mdi:bell-off-outline$$,
+      type: toggle
+    }
+
+    # Arrows
+    UP: $$mdi:arrow-up-bold$$
+    DOWN: $$mdi:arrow-down-bold$$
+    LEFT: $$mdi:arrow-left-bold$$
+    RIGHT: $$mdi:arrow-right-bold$$
+    PG_UP: $$mdi:transfer-up$$
+    PG_DN: $$mdi:transfer-down$$
+
+    # Sound
+    C_MUTE: $$mdi:volume-mute$$
+    C_VOL_UP: $$mdi:volume-plus$$
+    C_VOLUME_UP: $$mdi:volume-plus$$
+    C_VOL_DN: $$mdi:volume-minus$$
+    C_VOLUME_DOWN: $$mdi:volume-minus$$
+
+    # Media
+    C_NEXT: $$mdi:skip-next$$
+    C_PREV: $$mdi:skip-previous$$
+    C_PP: $$mdi:play-pause$$
+    C_PLAY_PAUSE: $$mdi:play-pause$$
+    C_STOP: $$mdi:stop-circle-outline$$
+
+    # Microphone
+    LC(LA(LS(M))): $$mdi:microphone-plus$$
+    LC(LA(LS(I))): $$mdi:microphone-minus$$
+    LC(LA(LS(C))): $$mdi:microphone-off$$
+
+    # Brightness
+    C_BRIGHTNESS_INC: $$mdi:brightness-7$$
+    C_BRIGHTNESS_DEC: $$mdi:brightness-5$$
+
+    # Caps lock
+    CLCK: $$mdi:keyboard-caps$$
+    CAPS: $$mdi:keyboard-caps$$
+    CAPSLOCK: $$mdi:keyboard-caps$$
+
+    # Power
+    C_POWER: $$mdi:power$$
+    C_SLEEP: $$mdi:power-sleep$$
+
+    # System
+    PSCRN: $$mdi:fit-to-screen-outline$$
+    LS(LG(PSCRN)): $$mdi:monitor-screenshot$$
+    PAUSE_BREAK: $$mdi:pause-octagon-outline$$
+    K_APP: $$mdi:menu$$
+    C_AL_CALC: $$mdi:calculator$$
+    KP_NLCK: $$mdi:numeric-off$$
+
+    # Scroll lock
+    SCROLLLOCK: $$mdi:arrow-vertical-lock$$
+    SLCK: $$mdi:arrow-vertical-lock$$
+    SCLK: $$mdi:arrow-vertical-lock$$
+
+    # Defaults
+    EXCLAMATION: '!'
+    EXCL: '!'
+    AT_SIGN: '@'
+    AT: '@'
+    HASH: '#'
+    POUND: '#'
+    DOLLAR: $
+    DLLR: $
+    PERCENT: '%'
+    PRCNT: '%'
+    CARET: ^
+    AMPERSAND: '&'
+    AMPS: '&'
+    ASTERISK: '*'
+    ASTRK: '*'
+    STAR: '*'
+    LEFT_PARENTHESIS: (
+    LPAR: (
+    RIGHT_PARENTHESIS: )
+    RPAR: )
+    EQUAL: '='
+    PLUS: +
+    MINUS: '-'
+    UNDERSCORE: _
+    UNDER: _
+    SLASH: /
+    FSLH: /
+    QUESTION: '?'
+    QMARK: '?'
+    BACKSLASH: \
+    BSLH: \
+    PIPE: '|'
+    NON_US_BACKSLASH: \
+    PIPE2: '|'
+    NON_US_BSLH: '|'
+    SEMICOLON: ;
+    SEMI: ;
+    COLON: ':'
+    SINGLE_QUOTE: ''''
+    SQT: ''''
+    APOSTROPHE: ''''
+    APOS: ''''
+    DOUBLE_QUOTES: '"'
+    DQT: '"'
+    COMMA: ','
+    LESS_THAN: <
+    LT: <
+    PERIOD: .
+    DOT: .
+    GREATER_THAN: '>'
+    GT: '>'
+    LEFT_BRACKET: '['
+    LBKT: '['
+    LEFT_BRACE: '{'
+    LBRC: '{'
+    RIGHT_BRACKET: ']'
+    RBKT: ']'
+    RIGHT_BRACE: '}'
+    RBRC: '}'
+    GRAVE: '`'
+    TILDE: '~'
+    NON_US_HASH: '#'
+    NUHS: '#'
+    TILDE2: '~'
+  zmk_combos:
+    combo_caps_word_caps:
+      align: top
+      offset: 1
+      key:
+        shifted: $$mdi:alpha-w-box$$
+        hold: $$mdi:keyboard-caps$$
+    combo_refresh_close_tab:
+      align: top
+      offset: 0.5
+      key:
+        shifted: $$mdi:refresh$$
+        hold: $$mdi:window-close$$
+    combo_select_word_line:
+      align: top
+      offset: 2.1
+      arc_scale: 1.295
+      key:
+        shifted: $$mdi:select-compare$$
+        hold: $$mdi:arrow-right-bold$$
+    combo_open_clear_clipboard_history:
+      align: bottom
+      offset: 1.3
+      arc_scale: 1.5
+      key:
+        shifted: $$mdi:clipboard-text-outline$$
+        hold: $$mdi:clipboard-text-off-outline$$
