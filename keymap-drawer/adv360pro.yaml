@@ -209,11 +209,11 @@ layers:
   - {type: ghost}
   - {type: ghost}
   - {t: '$$mdi:cursor-default-click-outline$$', s: '3', type: symbol_with_superscript}
-  - $$mdi:undo$$
+  - {t: '$$mdi:cursor-default-click-outline$$', s: '4', type: symbol_with_superscript}
   - $$mdi:content-paste$$
   - {t: '$$mdi:content-copy$$', h: '$$mdi:select-all$$'}
   - {t: '$$mdi:content-cut$$', h: '$$mdi:clipboard-edit-outline$$'}
-  - $$mdi:redo$$
+  - {t: '$$mdi:cursor-default-click-outline$$', s: '5', type: symbol_with_superscript}
   - {type: ghost}
   - {type: ghost}
   - {type: ghost}
